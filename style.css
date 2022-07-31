@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
+  color: #343a40;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 3rem auto;
+}
+
+.verified {
+  background: rgba(255, 255, 255, 0.702);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+
+  padding: 3rem 3rem 5rem 3rem;
+  border: 2px solid white;
+}
+
+.verified-text {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form {
+  font-size: 1.3rem;
+}
+.name-box {
+  margin-bottom: 1rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.validate {
+  width: 100%;
+  background-color: #37292c;
+  color: white;
+  padding: 14px 20px;
+  /* margin: 8px auto; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  margin-top: 2.5rem;
+  font-weight: 700;
+}
+
+.validate:hover {
+  background-color: white;
+  color: #37292c;
+}
+
+.display-network{
+  display: flex;
+  align-items: center;
+}
+
+.input-display{
+  font-weight: 700;
+  margin-right: 1rem;
+  font-size: 2rem;
+  
+}
+
+.glo{
+  display: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.mtn{
+  display: none;
+   width: 3rem;
+  height: 3rem;
+}
+
+.airtel{
+  display:none;
+   width: 3rem;
+  height: 3rem;
+}
+
+.ninemobile{
+  display:none;
+   width: 3rem;
+  height: 3rem;
+}
+
+
+
+
+@media (max-width: 68em) {
+  .container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .verified {
+    padding: 1rem;
+  }
+
+  html {
+    font-size: 90%;
+  }
+}
